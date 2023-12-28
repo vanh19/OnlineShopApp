@@ -1,8 +1,10 @@
-package anhmvph25860.fpoly.onlineshopapp;
+package anhmvph25860.fpoly.onlineshopapp.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import anhmvph25860.fpoly.onlineshopapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
