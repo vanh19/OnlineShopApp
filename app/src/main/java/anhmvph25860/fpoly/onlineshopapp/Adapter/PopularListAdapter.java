@@ -68,9 +68,9 @@ public class PopularListAdapter extends RecyclerView.Adapter<PopularListAdapter.
         public Viewholder(@NonNull View itemView) {
             super(itemView);
 
-            tvTitle = itemView.findViewById(R.id.tvTitle);
+            tvTitle = itemView.findViewById(R.id.titleTxt);
             tvFee = itemView.findViewById(R.id.tvFee);
-            tvScore = itemView.findViewById(R.id.tvScore);
+            tvScore = itemView.findViewById(R.id.scoreTxt);
             pic = itemView.findViewById(R.id.pic);
         }
     }
