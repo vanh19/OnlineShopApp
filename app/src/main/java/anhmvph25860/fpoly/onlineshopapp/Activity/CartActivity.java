@@ -56,7 +56,7 @@ public class CartActivity extends AppCompatActivity {
     }
 
     private void calcualteCart() {
-        double percentTax = 0.5; //thue
+        double percentTax = 0.05; //thue
         double delivery = 10; //van chuyen
         tax = Math.round((managmentCart.getTotalFee() * percentTax * 100.0)) / 100.0; // thue
 
