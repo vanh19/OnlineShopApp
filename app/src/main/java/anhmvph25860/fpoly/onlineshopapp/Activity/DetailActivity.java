@@ -50,12 +50,7 @@ public class DetailActivity extends AppCompatActivity {
             object.setNumberinCart(numberOrder);
             managmentCart.insertFood(object);
         });
-        backBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(DetailActivity.this, MainActivity.class));
-            }
-        });
+        backBtn.setOnClickListener(view -> finish());
     }
 
     private void initView() {
